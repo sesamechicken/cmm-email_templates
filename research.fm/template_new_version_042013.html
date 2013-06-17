@@ -41,76 +41,42 @@ table td {
 	padding: 0;
 	width: 100% !important;
 }
-/* Template Styles */
-
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */
-
-			/**
-			* @tab Page
-			* @section background color
-			* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
-			* @theme page
-			*/
 body, #backgroundTable {
-	/*@editable*/ background-color: #FAFAFA;
+	background-color: #FAFAFA;
 }
-/**
-			* @tab Page
-			* @section email border
-			* @tip Set the border for your email.
-			*/
-#templateContainer {
-	/*@editable*/ border: 1px solid #DDDDDD;
-}
-/**
-			* @tab Page
-			* @section heading 1
-			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
-			* @style heading 1
-			*/
 
+#templateContainer {
+	border: 1px solid #DDDDDD;
+}
 .bodyContent div {
-	/*@editable*/ color: #505050;
-	/*@editable*/ font-family: Arial;
-	/*@editable*/ font-size: 14px;
-	/*@editable*/ line-height: 150%;
-	/*@editable*/ text-align: left;
+	color: #505050;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 150%;
+	text-align: left;
 }
-/**
-			* @tab Body
-			* @section body link
-			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
-			*/
+
 .bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */ {
-	/*@editable*/ color: #336699;
-	/*@editable*/ font-weight: normal;
-	/*@editable*/ text-decoration: underline;
+	color: #336699;
+	font-weight: normal;
+	text-decoration: underline;
 }
-/**
-			* @tab Body
-			* @section button style
-			* @tip Set the styling for your email's button. Choose a style that draws attention.
-			*/
 .templateButton {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	/*@editable*/ background-color: #336699;
-	/*@editable*/ border: 0;
+	background-color: #336699;
+	border: 0;
 	border-collapse: separate !important;
 	border-radius: 3px;
 }
-/**
-			* @tab Body
-			* @section button style
-			* @tip Set the styling for your email's button. Choose a style that draws attention.
-			*/
+
 .templateButton, .templateButton a:link, .templateButton a:visited, /* Yahoo! Mail Override */ .templateButton a .yshortcuts /* Yahoo! Mail Override */ {
-	/*@editable*/ color: #FFFFFF;
-	/*@editable*/ font-family: Arial;
-	/*@editable*/ font-size: 15px;
-	/*@editable*/ font-weight: bold;
-	/*@editable*/ letter-spacing: -.5px;
-	/*@editable*/ line-height: 100%;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: -.5px;
+	line-height: 100%;
 	text-align: center;
 	text-decoration: none;
 }
@@ -118,59 +84,34 @@ body, #backgroundTable {
 	display: inline;
 	height: auto;
 }
-/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
 
-			/**
-			* @tab Footer
-			* @section footer style
-			* @tip Set the background color and top border for your email's footer area.
-			* @theme footer
-			*/
 #templateFooter {
-	/*@editable*/ background-color: #FFFFFF;
-	/*@editable*/ border-top: 0;
+	background-color: #FFFFFF;
+	border-top: 0;
 }
-/**
-			* @tab Footer
-			* @section footer text
-			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
-			* @theme footer
-			*/
+
 .footerContent div {
-	/*@editable*/ color: #707070;
-	/*@editable*/ font-family: Arial;
-	/*@editable*/ font-size: 12px;
-	/*@editable*/ line-height: 125%;
-	/*@editable*/ text-align: center;
+	color: #707070;
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 125%;
+	text-align: center;
 }
-/**
-			* @tab Footer
-			* @section footer link
-			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
-			*/
+
 .footerContent div a:link, .footerContent div a:visited, /* Yahoo! Mail Override */ .footerContent div a .yshortcuts /* Yahoo! Mail Override */ {
-	/*@editable*/ color: #336699;
-	/*@editable*/ font-weight: normal;
-	/*@editable*/ text-decoration: underline;
+	color: #336699;
+	font-weight: normal;
+	text-decoration: underline;
 }
 .footerContent img {
 	display: inline;
 }
-/**
-			* @tab Footer
-			* @section utility bar style
-			* @tip Set the background color and border for your email's footer utility bar.
-			* @theme footer
-			*/
+
 #utility {
-	/*@editable*/ background-color: #FFFFFF;
-	/*@editable*/ border: 0;
+	background-color: #FFFFFF;
+	border: 0;
 }
-/**
-			* @tab Footer
-			* @section utility bar style
-			* @tip Set the background color and border for your email's footer utility bar.
-			*/
+
 </style>
 </head>
 <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
@@ -230,15 +171,19 @@ body, #backgroundTable {
                                   </tr>
                                 </table>
                                 
-                                <!-- END reward value --></td>
-                              <td width="364" rowspan="2" valign="top" class="bodyContent" style="padding-left: 12px;"><div>
+                                <!-- END reward value -->
+                            </td>
+                              <td width="364" rowspan="2" valign="top" class="bodyContent" style="padding-left: 12px;">
+                              	<div>
                                   <p>[MESSAGE]</p>
-                                </div></td>
+                                </div>
+                              </td>
                             </tr>
                             <tr>
                               <td height="39" valign="top" align="center" class="bodyContent"></td>
                             </tr>
-                          </table></td>
+                          </table>
+                      </td>
                       </tr>
                       <tr>
                         <td align="center" valign="top" style="padding:15px;"><div align="center" style="text-align:center;"> <a href="[SURVEYLINK]"><img src="http://research.fm/images/email/2013/start-survey-bttn.gif" alt="Start Survey" /></a></div></td>
@@ -249,7 +194,8 @@ body, #backgroundTable {
                       </tr>
                     </table>
                     
-                    <!-- // End Module: Standard Content \\ --></td>
+                    <!-- // End Module: Standard Content \\ -->
+                </td>
                 </tr>
               </table>
               
